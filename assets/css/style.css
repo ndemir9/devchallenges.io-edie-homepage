@@ -194,9 +194,39 @@ header nav a {
     font-weight: var(--fontweight500);
 }
 
-@media only screen and (max-width: 768px) {
+.hamburger-open-btn {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-close-btn {
+    display: none;
+    width: 100%;
+    text-align: right;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger-open-btn {
+        display: inline;
+    }
+
     header nav {
-        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: var(--blue);
+        width: 75%;
+        height: 100vh;
+        z-index: 999999;
+        align-items: center;
+        color: var(--extralightgray);
+    }
+
+    header nav a {
+        color: var(--extralightgray);
     }
 }
 
