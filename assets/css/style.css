@@ -212,6 +212,10 @@ header nav a {
         display: inline;
     }
 
+    .hamburger-close-btn {
+        display: inline;
+    }
+
     header nav {
         flex-direction: column;
         position: fixed;
