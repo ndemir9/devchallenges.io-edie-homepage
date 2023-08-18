@@ -8,4 +8,4 @@ Teknoloji: HTML5, CSS3, JavaScript
 
 Kaynak: https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0
 <br />
-
+Demo: https://ndemir9.github.io/devchallenges.io-edie-homepage/
